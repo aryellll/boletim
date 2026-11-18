@@ -1,166 +1,147 @@
+
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
-  <title>Boletim</title>
+    <meta charset="UTF-8">
+    <title>Estrutura de Curso</title>
 </head>
 <body>
 
-  <h1>Boletim</h1>
+    <h2 align="center">Estrutura de Curso - Vigente - Graduação</h2>
 
-  <h2>BOLETIM</h2>
-  <p>(20262035000122) - ARYEL MOREIRA LIMA - 2026/2</p>
+    <table border="1" width="100%">
+        <tr>
+            <th>Componente Curricular</th>
+            <th>CH</th>
+            <th>Turma</th>
+            <th>T. Faltas</th>
+            <th>M Final</th>
+            <th>N1</th>
+            <th>F</th>
+            <th>N2</th>
+            <th>F</th>
+            <th>MP</th>
+            <th>PF</th>
+            <th>F</th>
+            <th>MF</th>
+            <th>Situação</th>
+        </tr>
 
-  <form>
-    <label for="ano">Ano:</label>
-    <select id="ano" name="ano">
-      <option value="2026">2026</option>
-    </select>
+        <tr>
+            <td>CÁLCULO I</td>
+            <td>80</td>
+            <td>32 - 20262.03500.1N</td>
+            <td>2</td>
+            <td></td>
+            <td></td>
+            <td>2</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>Cursando</td>
+        </tr>
 
-    <label for="periodo">Período:</label>
-    <select id="periodo" name="periodo">
-      <option value="2">2</option>
-    </select>
+        <tr>
+            <td>PROBABILIDADE E ESTATÍSTICA</td>
+            <td>80</td>
+            <td>32 - 20262.03500.1N</td>
+            <td>10</td>
+            <td></td>
+            <td></td>
+            <td>10</td>
+            <td></td>
+            <td>0</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>Cursando</td>
+        </tr>
 
-    <button type="submit">Exibir Boletim</button>
-  </form>
+        <tr>
+            <td>FUNDAMENTOS DE SISTEMAS DE INFORMAÇÃO</td>
+            <td>80</td>
+            <td>32 - 20262.03500.1N</td>
+            <td>6</td>
+            <td></td>
+            <td>6,70</td>
+            <td>6</td>
+            <td></td>
+            <td>0</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>Cursando</td>
+        </tr>
 
-  <br>
+        <tr>
+            <td>INGLÊS INSTRUMENTAL</td>
+            <td>40</td>
+            <td>32 - 20262.03500.1N</td>
+            <td>4</td>
+            <td></td>
+            <td>6,50</td>
+            <td>4</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>Cursando</td>
+        </tr>
 
-  <table border="1">
-    <caption>Estrutura de Curso - Vigente - Graduação</caption>
+        <tr>
+            <td>LÓGICA MATEMÁTICA</td>
+            <td>40</td>
+            <td>32 - 20262.03500.1N</td>
+            <td>4</td>
+            <td></td>
+            <td></td>
+            <td>2</td>
+            <td></td>
+            <td>2</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>Cursando</td>
+        </tr>
 
-    <thead>
-      <tr>
-        <th>Componente Curricular</th>
-        <th>CH</th>
-        <th>Turma</th>
-        <th>T. Faltas</th>
-        <th>M Final</th>
-        <th>N1</th>
-        <th>F</th>
-        <th>N2</th>
-        <th>F</th>
-        <th>MP</th>
-        <th>PF</th>
-        <th>F</th>
-        <th>MF</th>
-        <th>Situação</th>
-      </tr>
-    </thead>
+        <tr>
+            <td>TECNOLOGIAS WEB</td>
+            <td>80</td>
+            <td>32 - 20262.03500.1N</td>
+            <td>8</td>
+            <td></td>
+            <td>1,70</td>
+            <td>6</td>
+            <td></td>
+            <td>2</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>Cursando</td>
+        </tr>
 
-    <tbody>
-      <tr>
-        <td>CÁLCULO I</td>
-        <td>80</td>
-        <td>32 - 20262.03500.1N</td>
-        <td>2</td>
-        <td></td>
-        <td></td>
-        <td>2</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td>Cursando</td>
-      </tr>
-      <tr>
-        <td>PROBABILIDADE E ESTATÍSTICA</td>
-        <td>80</td>
-        <td>32 - 20262.03500.1N</td>
-        <td>10</td>
-        <td></td>
-        <td></td>
-        <td>10</td>
-        <td></td>
-        <td>0</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td>Cursando</td>
-      </tr>
-      <tr>
-        <td>FUNDAMENTOS DE SISTEMAS DE INFORMAÇÃO</td>
-        <td>80</td>
-        <td>32 - 20262.03500.1N</td>
-        <td>6</td>
-        <td></td>
-        <td>6,70</td>
-        <td>6</td>
-        <td></td>
-        <td>0</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td>Cursando</td>
-      </tr>
-      <tr>
-        <td>INGLÊS INSTRUMENTAL</td>
-        <td>40</td>
-        <td>32 - 20262.03500.1N</td>
-        <td>4</td>
-        <td></td>
-        <td>6,50</td>
-        <td>4</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td>Cursando</td>
-      </tr>
-      <tr>
-        <td>LÓGICA MATEMÁTICA</td>
-        <td>40</td>
-        <td>32 - 20262.03500.1N</td>
-        <td>4</td>
-        <td></td>
-        <td></td>
-        <td>2</td>
-        <td></td>
-        <td>2</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td>Cursando</td>
-      </tr>
-      <tr>
-        <td>TECNOLOGIAS WEB</td>
-        <td>80</td>
-        <td>32 - 20262.03500.1N</td>
-        <td>8</td>
-        <td></td>
-        <td>1,70</td>
-        <td>6</td>
-        <td></td>
-        <td>2</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td>Cursando</td>
-      </tr>
-    </tbody>
-  </table>
+    </table>
 
-  <p><strong>Média das disciplinas:</strong> 0,00</p>
-  <p><strong>Rendimento global:</strong> 0,00</p>
-  <p><strong>Coeficiente de Rendimento:</strong> 0,00</p>
-  <p><strong>Situação:</strong> Matriculado</p>
-  <p><strong>Parecer:</strong></p>
+    <br>
 
-  <hr>
+    <h3>
+        Média das disciplinas: 0,00
+        &nbsp;&nbsp;&nbsp;
+        Rendimento global: 0,00
+        &nbsp;&nbsp;&nbsp;
+        Coeficiente de Rendimento: 0,00
+    </h3>
 
-  <footer>
-    <p>17/11/2026 - 20262035000122 - ARYEL MOREIRA LIMA</p>
-    <p>&copy; 2004 Qualidata</p>
-  </footer>
+    <h3 align="center">Situação: Matriculado</h3>
 
 </body>
 </html>
